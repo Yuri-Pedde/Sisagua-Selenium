@@ -94,8 +94,8 @@ from time import sleep
 
 action = webdriver.ActionChains(wd)
 
-usuario = '03036108084'
-senha = 'Yurigp16@'
+usuario = usuario
+senha = senha
 
 sleep(5)
 campo_usuario = wd.find_element(By.CSS_SELECTOR, '#email')
